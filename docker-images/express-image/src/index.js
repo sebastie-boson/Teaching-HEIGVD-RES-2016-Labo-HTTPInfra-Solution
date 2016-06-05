@@ -18,8 +18,8 @@ app.listen(3000, function () {
 
 function generateAddressesInItaly() {
 	var numberOfAddresses = chance.integer({
-		min: 1,
-		max: 30
+		min: 0,
+		max: 23
 	});
 	
 	console.log(numberOfAddresses);
